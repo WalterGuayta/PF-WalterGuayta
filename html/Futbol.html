@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
     <!--Titulo-->
     <title>Club Atletico Chacabuco</title>
     <!--favicon-->
@@ -15,102 +16,148 @@
     <link rel="stylesheet" href="./css/style.css">
     <!--bootstraps-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-      <!--Iconos-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-      <!--Css-->
-    <link rel="stylesheet" href="css/style.css">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Css-->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<!--COMIENZA EL BODY-->
+<!--body-->
 
 <body>
-    <header> 
-        <a href="">
-             <img class="nueva-imagen" src="../imagenes/logo-chaca.jpeg" alt="logo">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Noticias.html">Noticias</a></li>
-                <li><a href="Futbol.html">Futbol </a></li>
-                <li><a href="Natacion.html">Natacion</a></li>
-                <li><a href="Socios.html">Socios </a></li>
+<!-- barra de navegacion-->
+    <header class="headernav">
+        <div class="navbar-img">
+            <a href="../index.html">
+                <img src="../imagenes/logo-chaca.jpeg" alt="logo">
+            </a>
+        </div>
+        <nav class="barranav">
+            <ul class="elementos-barra-nav">
+                <li class="nav-items"><a href="../index.html">Inicio</a></li>
+                <li class="nav-items"><a href="Noticias.html">Noticias</a></li>
+                <li class="nav-items"><a href="Futbol.html">Futbol </a></li>
+                <li class="nav-items"><a href="Natacion.html">Natacion</a></li>
+                <li class="nav-items"><a href="Socios.html">Socios </a></li>
             </ul>
         </nav>
     </header>
 
-<!-- comienza MAIN-->
+<!-- main-->
 
     <main>
-       <h1 class="main-gimnasia">ACTIVIDADES</h1>
-         <section>
-            <article>
-                <h3>Futbol Masculino y Femenino"</h3>
-                <img class="futbol-masculino"  src="../imagenes/futbol masculino.jpg" alt="vista de jugadores de futbol en cancha">
+        <div class="main-titulos">
+            <h1 class="main-futbol1">FUTBOL</h1>
+            <h2 class="main-futbol2">Todas las Novedades</h2>
+        </div>
 
-                <img class="futbol-femenino" src="../imagenes/futbol-femenino.jpg" alt="vista de jugadoras de futbol en cancha">
+<!--seccion-->
+        <section class="container text-center proyectos-contenedor">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="proyectos">
+                        <div class="overlay">
+                            <p class="titulo-clase3">
+                                Futbol Masculino</p>
+                            <img class="futbol-masculino" src="../imagenes/futbol masculino.jpg"
+                                alt="vista de jugadores de futbol en cancha">
+                            <p>El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol,
+                                balompie o soccer, es un deporte de equipo jugado entre dos conjuntos de 11 jugadores
+                                cada uno y un arbitro que se ocupa de que las normas se cumplan correctamente. Es
+                                ampliamente considerado el deporte mas popular del mundo, pues participan en él unos 270
+                                millones de personas. Se juega en un campo rectangular de césped, con una meta o
+                                portería a cada lado del campo. El objetivo del juego es desplazar una pelota a través
+                                del campo para intentar ubicarla dentro de la meta contraria, acción que se denomina
+                                gol. El equipo que marque más goles al cabo del partido es el que resulta ganador.</p>
+                        </div>
+                    </div>
+                </div>
 
-                <p>El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol, balompie o soccer, es un deporte de equipo jugado entre dos conjuntos de 11 jugadores cada uno y un arbitro que se ocupa de que las normas se cumplan correctamente. Es ampliamente considerado el deporte mas popular del mundo, pues participan en él unos 270 millones de personas. Se juega en un campo rectangular de césped, con una meta o portería a cada lado del campo. El objetivo del juego es desplazar una pelota a través del campo para intentar ubicarla dentro de la meta contraria, acción que se denomina gol. El equipo que marque más goles al cabo del partido es el que resulta ganador.</p>             
-            </article>
+                <div class="col-12 col-md-6">
+                    <div class="proyectos">
+                        <div class="overlay">
+                            <p class="titulo-clase3">
+                                Futbol Femenino</p>
+                            <img class="futbol-femenino" src="../imagenes/futbol-femenino.jpg"
+                                alt="vista de jugadoras de futbol en cancha">
+                            <p>El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol,
+                                balompie o soccer, es un deporte de equipo jugado entre dos conjuntos de 11 jugadores
+                                cada uno y un arbitro que se ocupa de que las normas se cumplan correctamente. Es
+                                ampliamente considerado el deporte mas popular del mundo, pues participan en él unos 270
+                                millones de personas. Se juega en un campo rectangular de césped, con una meta o
+                                portería a cada lado del campo. El objetivo del juego es desplazar una pelota a través
+                                del campo para intentar ubicarla dentro de la meta contraria, acción que se denomina
+                                gol. El equipo que marque más goles al cabo del partido es el que resulta ganador.</p>
+                        </div>
+                    </div>
+                </div>
 
-            <article>
-                <h3>Babi y Fefi"</h3>
-                <img  class="fefi"  src="../imagenes/fefi.jpg" alt="vista del banco de suplentes">
-    
-                <p>FEFI cumple 30 años de trayectoria con el mayor torneo de fútbol infantil del país, con más de 450 equipos participantes en 24 zonas conformadas de 7 categorías (2016, 2010, 2015, 2011, 2014, 2013 y 2012), Seguí toda la estadística oficial del torneo. La Federación Escuela de Fútbol Infantil es otro tipo de torneo en el que participan seis zonas de dieciséis equipos de la A a la F y también hay seis zonas por colores: blanca, bordo, celeste, oro, verde y violeta.</p>              
-            </article>
+                <article>
+                    <h3 class="titulo-clase3">Babi y Fefi</h3>
+                    <img class="fefi" src="../imagenes/fefi.jpg" alt="vista del banco de suplentes">
 
-            <article>
-                <h3>Futsal</h3>
-                <img class="futsal" src="../imagenes/futsal.jpg" alt="jugando futsal">
-    
-                <p>¿Qué es el fútbol sala y cómo se juega?
-                El fútbol sala es un deporte de colaboración-oposición. Participan dos equipos compuestos por cinco personas, de las cuales, una ocupa la posición de portero/a. Se juega en una superficie rectangular de 40×20 metros, con una duración de 2 tiempos de 20 minutos a reloj parado</p>              
-            </article>
-        </section>      
+                    <p class="parrafo-article">FEFI cumple 30 años de trayectoria con el mayor torneo de fútbol infantil del país, con más de
+                        450 equipos participantes en 24 zonas conformadas de 7 categorías (2016, 2010, 2015, 2011, 2014,
+                        2013 y 2012), Seguí toda la estadística oficial del torneo. La Federación Escuela de Fútbol
+                        Infantil es otro tipo de torneo en el que participan seis zonas de dieciséis equipos de la A a
+                        la F y también hay seis zonas por colores: blanca, bordo, celeste, oro, verde y violeta.</p>
+                </article>
+
+                <article>
+                    <h3 class="titulo-clase3">Futsal</h3>
+                    <img class="futsal" src="../imagenes/futsal.jpg" alt="jugando futsal">
+
+                    <p class="parrafo-article">¿Qué es el fútbol sala y cómo se juega?
+                        El fútbol sala es un deporte de colaboración-oposición. Participan dos equipos compuestos por
+                        cinco personas, de las cuales, una ocupa la posición de portero/a. Se juega en una superficie
+                        rectangular de 40×20 metros, con una duración de 2 tiempos de 20 minutos a reloj parado</p>
+                </article>
+        </section>
     </main>
 
-    <!--COMIENZA FOOTER-->
+    <!--footer-->
     <footer>
         <section class="footer conteiner-fluid">
-          <ul class="lista-de-elementos">
-            <li><a class="enlaces" href="../index.html">INICIO</a></li>
-            <li><a class="enlaces" href="Noticias.html">NOTICIAS</a></li>
-            <li><a class="enlaces" href="Futbol.html">FUTBOL</a></li>
-            <li><a class="enlaces" href="Natacion.html">NATACION</a></li>
-            <li><a class="enlaces" href="Socios.html">CONTACTOS</a></li>
-          </ul>
-    
-          <section id="Contactos" class="seccion-contacto">
-            <p class="enlaces">CONTACTOS</p>
-            <p class="text-footer">Redes Sociales</p>
-            <div class="iconos-redes-sociales">
-              <a href="" target="_blank" rel="noopener noreferrer" >
-              <i class="bi bi-twitter"></i>
-              </a>
-              <a href="" target="_blank" rel="noopener noreferrer" >
-              <i class="bi bi-instagram"></i>
-              </a>
-          
-              <a href="" target="_blank" rel="noopener noreferrer" >
-              <i class="bi bi-facebook"></i>
-              </a>
-            
-              <a href="mailto:wrg_2011@hotmail.com" target="_blank" rel="noopener noreferrer" >
-              <i class="bi bi-envelope"></i>
-            </a>        
-          </div>
+            <ul class="lista-de-elementos">
+                <li><a class="enlaces" href="../index.html">INICIO</a></li>
+                <li><a class="enlaces" href="Noticias.html">NOTICIAS</a></li>
+                <li><a class="enlaces" href="Futbol.html">FUTBOL</a></li>
+                <li><a class="enlaces" href="Natacion.html">NATACION</a></li>
+                <li><a class="enlaces" href="Socios.html">CONTACTOS</a></li>
+            </ul>
+
+            <section id="Contactos" class="seccion-contacto">
+                <p class="enlaces">CONTACTOS</p>
+                <p class="text-footer">Redes Sociales</p>
+                <div class="iconos-redes-sociales">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="mailto:wrg_2011@hotmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+            </section>
+
+
+
         </section>
-    
-    
-    
-        </section>
-    
-        <p class="text-footer d-flex flex-column align-items-center justify-content-center">Club Atletico Gimnasia y Esgrima
-          de Chacabuco, todos los derechos reservados (2023) &#169;</p>
-    
-      </footer>
+
+        <p class="text-footer d-flex flex-column align-items-center justify-content-center">Club Atletico Gimnasia y
+            Esgrima
+            de Chacabuco, todos los derechos reservados (2023) &#169;</p>
+
+    </footer>
 
 </body>
+
 </html>
