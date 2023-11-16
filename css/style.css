@@ -4,6 +4,8 @@
     font-family: 'Roboto', sans-serif;;
 }
 
+
+
 .logo {
     width: 300px;
    
@@ -20,8 +22,6 @@
 }
 
 
-
-
 .futsal {
     width: 500px;
 }
@@ -34,22 +34,6 @@
        
 }
 
-
-
-.registrate {
-    font-size: 25px;
-    color: blue;
-}
-
-.camisetas {
-    width: 250px;
-  
-}
-
-.tarjetas {
-    width: 250px;
-    
-}
 
 .beneficios {
        color: blue;
@@ -96,11 +80,15 @@
     justify-content: space-between;
 }
 
+
+
+
 /*media query*/
 
-@media screen and (max-width: 767px){
-    .navbar-brand{
-        display: none;
+@media screen and (max-width: 540px){
+    .imagen-logo{
+        width: 100%;
+     
     }
 }
     
@@ -183,6 +171,8 @@ section{
     justify-content: center;
     padding: 50px;
 }
+
+
 
 /* seccion 2 */
 
@@ -564,4 +554,11 @@ article{
     font-size: 16px;
 
 
+}
+
+
+/*transform*/
+
+.imagen-logo{
+    transform: translateX(100%);
 }

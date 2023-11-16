@@ -1,0 +1,55 @@
+.footer{
+    margin: 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #1b1b32;
+    background-color: rgb(245, 246, 247);
+
+    &__a{
+        color: #1b1b32;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    
+}
+
+.lista-de-elementos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.enlaces{
+    font-size: 15px;
+    margin: 10px;
+    font-family: "Rubik Dirt", Cursive;
+    color: #1b1b32;
+}
+
+
+
+.footer ul li{
+    margin: 10px;
+   
+}
+
+
+
+.text-footer{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 10px;
+}

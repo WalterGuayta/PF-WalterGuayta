@@ -1,0 +1,31 @@
+.natacion {
+    width: 300px;
+}
+
+.seccion-natacion{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+
+    &__titulo-natacion-1{
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+
+
+    &__img{
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        display: block;
+    }
+
+}
+
+.nav-items a{
+    font-family: sans-serif;
+    color: black;
+  } 
+
+

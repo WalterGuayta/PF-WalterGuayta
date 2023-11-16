@@ -1,0 +1,455 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Noticias {
+  align-items: stretch;
+  text-align: center;
+}
+.Noticias__text {
+  padding: 15px;
+  font-size: 18px;
+  color: #000000;
+}
+.Noticias__columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.main-gimnasia {
+  font-size: 3rem;
+  color: #696969;
+  font-family: "Rubik Dirt", Cursive;
+  display: block;
+}
+
+.primero-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.imagen-seccion-1 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.historia-club {
+  color: black;
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.historia-club__titulo-historia p {
+  font-size: 80px;
+}
+
+.historia .columna {
+  border: 2px solid #808080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  transition: all 0.2s ease-in;
+}
+.historia .columna__columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.titulo-historia {
+  font-size: 25px;
+  margin: 20px 20px;
+  font-family: "Rubik Dirt", Cursive;
+}
+
+.natacion {
+  width: 300px;
+}
+
+.seccion-natacion {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+}
+.seccion-natacion__titulo-natacion-1 {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+.seccion-natacion__img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  display: block;
+}
+
+.nav-items a {
+  font-family: sans-serif;
+  color: black;
+}
+
+.seccion-contacto {
+  background-color: #f5f6f7;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-contacto__a {
+  list-style-type: none;
+}
+
+i {
+  font-size: 2rem;
+  padding: 8px 19px;
+  border-radius: 50%;
+  color: rgb(233, 172, 18);
+}
+
+.iconos-redes-sociales {
+  list-style-type: none;
+}
+
+.iconos-redes-sociales a {
+  text-decoration: none;
+}
+
+.nav-items a {
+  font-family: sans-serif;
+  color: black;
+}
+
+.primera-imagen {
+  margin: 30px;
+  margin-top: 0;
+  padding: 30px;
+}
+
+.imagen-club {
+  min-width: 700px;
+  max-height: 600px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.primer-imagen {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 246, 247);
+}
+
+.titulo-clase3 {
+  font-size: 1.2rem;
+  color: #584e4e;
+  margin: 15px;
+}
+
+.proyectos img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: block;
+  border-radius: 15px;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  text-align: center;
+}
+
+.headernav img {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra-nav {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.elementos-barra-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.nav-items a {
+  font-family: sans-serif;
+  color: black;
+}
+
+.main-titulos {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-futbol1 {
+  font-size: 2rem;
+  color: #696969;
+  font-family: "Rubik Dirt", Cursive;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.futbol-masculino {
+  width: 150px;
+  height: 100px;
+}
+.futbol-masculino__femenino {
+  width: 150px;
+  height: 100px;
+}
+
+.fefi {
+  width: 100%;
+}
+
+.futsal {
+  width: 100%;
+}
+
+.socios {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.asociarme {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*estilo del formulario*/
+.form-registro {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #808080;
+}
+.form-registro__h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-registro__p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-registro__a {
+  color: white;
+  text-decoration: none;
+}
+.form-registro__a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.form-registro__botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.controls {
+  width: 250px;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+/*transform*/
+.imagen-logo {
+  transform: translateX(100%);
+}
+
+/*estilos generales*/
+.historia2 {
+  width: 500px;
+}
+
+.clase-natacion {
+  text-align-last: center;
+  background-color: aqua;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.cena {
+  width: 250px;
+  height: 300px;
+}
+
+.fiesta {
+  width: 250px;
+  height: 300px;
+}
+
+.proyecto-natacion p {
+  font-size: 2rem;
+  color: rgb(233, 172, 18);
+}
+
+/*barra de navegacion*/
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+.navbar__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+}
+.navbar__collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #1b1b32;
+  background-color: rgb(245, 246, 247);
+}
+.footer__a {
+  color: #1b1b32;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.lista-de-elementos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.enlaces {
+  font-size: 15px;
+  margin: 10px;
+  font-family: "Rubik Dirt", Cursive;
+  color: #1b1b32;
+}
+
+.footer ul li {
+  margin: 10px;
+}
+
+.text-footer {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+/*media query*/
+@media screen and (max-width: 540px) {
+  .imagen-logo {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .imagen-seccion-1 {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .lista-de-elementos {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .imagen-club {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 846px) {
+  .imagen-logo {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

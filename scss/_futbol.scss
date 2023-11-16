@@ -1,0 +1,95 @@
+
+.headernav img{
+    width: 150px;
+    height: 150px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.navbar-img{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.barra-nav{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementos-barra-nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 10px;
+    padding: 10px; 
+    font-size: 15px;   
+    
+   
+ }    
+
+ .nav-items a{
+   font-family: sans-serif;
+   color: black;
+ } 
+  
+
+ .main-titulos{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+    
+ .main-futbol1{
+    font-size: 2.0rem;
+    color: #696969;
+    font-family: "Rubik Dirt", Cursive;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .futbol-masculino{
+    width:150px;
+    height: 100px;
+
+    &__femenino{
+        width:150px;
+        height: 100px;
+     }
+ }
+
+ 
+ .fefi{
+    width:100%;
+    
+ }
+
+ .futsal{
+    width: 100%;
+   
+ }
