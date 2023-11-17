@@ -10,10 +10,10 @@
         align-items: center;
         padding: 18px;
     }
-   
-    &__collapse{
-        align-items: center;
-        justify-content: space-between;
-    }
+    
 }
 
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}

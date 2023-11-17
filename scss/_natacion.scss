@@ -2,7 +2,7 @@
     width: 300px;
 }
 
-.seccion-natacion{
+.Noticias__natacion {
     display: flex;
     flex-direction: column;
     padding: 50px 40px;
@@ -23,6 +23,16 @@
     }
 
 }
+
+.primera-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 
 
