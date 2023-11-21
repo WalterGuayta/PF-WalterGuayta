@@ -2,10 +2,8 @@
 //seccion 1 del index
 
 .section{
-    display: flex;
-    flex-direction: column;
+   @include flex-justi-direction;
     align-items: center;
-    justify-content: center;
 }
 
 .Noticias{

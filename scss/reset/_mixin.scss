@@ -1,0 +1,14 @@
+@mixin flex-justi-direction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+//mixin con parametros
+
+@mixin w-h($w, $h){
+    width: $w;
+    height: $h;
+}
+
+//en este caso tuvo el mismo inconveniente que con las variables, al color el signo "$" no me lo reconoce como un valor esperado por la regla, probe de muchas maneras pero no me fue posible generar el mixin con parametros.

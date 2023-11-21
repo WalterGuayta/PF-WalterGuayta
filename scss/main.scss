@@ -1,5 +1,11 @@
+//reset
 
-@import './header'; 
+@import './reset/reset';
+@import './reset/vars';
+@import './reset/mixin';
+
+//layout
+@import './header';
 @import './natacion';
 @import './seccion-contactos';
 @import './barranoticias';
@@ -9,8 +15,7 @@
 @import './estilogeneral';
 @import './barranav';
 @import './layout/footer-index';
+
+
+//mq
 @import './reset/mq';
-@import './reset/mixin';
-
-
-
