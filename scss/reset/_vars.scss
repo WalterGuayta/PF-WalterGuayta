@@ -1,3 +1,35 @@
-$black: #000000;
+$Gris: #696969;
 
-//tuve problemas para generar la variable, al colocar el valor "$" no  es reconocido como un valor esperado, entendi lo explicado en clase, trate de acomodar los archivos respetando el orden ya que  podia ser uno de los errores, en el main lo inclui como se vio en clase, sin embargo, no me fue posible generar la variable.
+$Blanco:#ffffff;
+
+$tipografia-titulo:"Rubik Dirt", Cursive;
+
+$color-primary: #1b1b32;
+
+
+//condicional
+
+// blanco
+$bshadow-1:$Blanco;
+
+//gris
+$bshadow-2:$Gris;
+
+//negro
+$bshadow-3:$color-primary;
+
+@mixin box-shadow ($bxshadow) {
+    //si...
+    @if $bxshadow == "s-right"{
+        box-shadow:$bshadow-1;
+        //sino...
+}@else if $bxshadow =="s-left"{
+    box-shadow:$bshadow-2;
+    //sino
+ }@else  if $bxshadow == "s-top"{
+    box-shadow:$bshadow-3;
+    //sino  es esto
+ }@else {
+    box-shadow:none;
+    }
+ }
