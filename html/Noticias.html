@@ -23,6 +23,13 @@
   <link rel="stylesheet" href="../css/main.css">
   <!--iconos bootraps-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--animate-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>
 
@@ -35,7 +42,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar-Toggler">
         <a class="navbar-brand" href="#">
-          <img class="imagen-logo" src="../imagenes/logo-chaca.jpeg" alt="logo-del-club">
+          
+          <img class="imagen-logo" src="../imagenes/logo-chaca.jpeg" alt="logo-del-club ">
         </a>
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -55,9 +63,12 @@
   <main>
     <!--Primera seccion-->
     <section id="Noticias" class="primera-imagen">
-      <h1 class="titulo-historia">NOTICIAS</h1>
+      <h1 class="titulo-historia animate__animated animate__bounceInLeft">NOTICIAS</h1>
       <h2 class="titulo-historia">Convocatoria para el próximo partido</h2>
-      <img class="imagen-club" src="../imagenes/club de Gimnasia y Esgrima Chacabuco.jpg" alt="vista del estadio">
+      <img class="imagen-club" data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"src="../imagenes/club de Gimnasia y Esgrima Chacabuco.jpg" alt="vista del estadio" >
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aliquid dolorem quod tempore modi ipsa non nam?
         Modi vel aperiam, quia autem rerum sapiente ipsa optio illo maxime facilis in! Lorem, ipsum dolor sit amet
         consectetur adipisicing elit. Omnis magni aliquid dicta aliquam deserunt perferendis quia, temporibus recusandae
@@ -67,7 +78,8 @@
 
     <!--Segunda seccion-->
     <section id="Masnoticias" class="primer-imagen">
-      <h1 class="titulo-historia"> MÁS NOTICIAS </h1>
+      <!--Animacion con animate-->
+      <h1 class="titulo-historia animate__animated animate__bounceInDown"> MÁS NOTICIAS </h1>
       <h3 class="titulo-clase3">Noticias Recientes</h3>
     </section>
 
@@ -159,6 +171,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <!--Aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

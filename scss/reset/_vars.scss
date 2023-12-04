@@ -37,18 +37,19 @@ $bshadow-3:$color-primary;
  //Mapas- Bucles @each
 
  $fontsize-mood:(
-//  mood       size   
+    //  mood       size   
     uno: 1rem,
     dos: 0.7rem,
     tres: 0.5rem,
-    cuatro: 0.2rem,
+    cuatro: 0.2rem
  );
 
  @each $mood, $size in $fontsize-mood{
-   .size-#{$mood}{
+    .size-#{$mood}{
         font-size: $size;
     }
-}
+ }
+
 
  //declaro el Mapa
 
@@ -59,7 +60,6 @@ $bshadow-3:$color-primary;
     facebook:   #0000ff,
     envelope:    #00bbff,
     );
-
 
 @each $clave, $color in $redes {
 

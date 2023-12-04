@@ -233,6 +233,11 @@ i {
   text-align: center;
 }
 
+.row {
+  background: rgb(86, 63, 251);
+  background: radial-gradient(circle, rgba(86, 63, 251, 0.9097690101) 41%, rgb(252, 202, 70) 100%);
+}
+
 .headernav img {
   width: 150px;
   height: 150px;
