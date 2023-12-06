@@ -5,8 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 5px solid #1b1b32;
-    background-color: rgb(245, 246, 247);
+
 
     &__a{
         color: #1b1b32;
@@ -26,10 +25,10 @@
 }
 
 .enlaces{
-    font-size: 15px;
+    font-size: 20px;
     margin: 10px;
-    font-family: "Rubik Dirt", Cursive;
-    color: #1b1b32;
+    font-family: "$tipografia-titulo";
+    color: $Black;
 }
 
 
@@ -42,7 +41,7 @@
 
 
 .text-footer{
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -50,4 +49,5 @@
     align-items: center;
     margin: 10px;
     padding-bottom: 10px;
+    color: $Black;
 }

@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta description-->
+    <meta name="description" content="Club Atletico Gimnasia y Escgrima de Chacabuco">
+    <!--key-palabras claves-->
+    <meta name="keywords" content=" Club Atletico Gimnasia y Escgrima de Chacabuco, futbol, natacion, noticias, contactos">
 
     <!--Titulo-->
-    <title>Club Atletico Chacabuco</title>
+    <title>Futbol-Club Atletico Chacabuco</title>
     <!--favicon-->
     <link rel="icon" href="../imagenes/logo-chaca.jpeg" type="image/x-icon">
     <!--google fonts-->
@@ -29,13 +33,19 @@
 
 <body>
     <!-- barra de navegacion-->
-    <header class="headernav">
-        <div class="navbar-img">
-            <a href="../index.html">
-                <img src="../imagenes/logo-chaca.jpeg" alt="logo">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="../index.html">
+    
+    <!--Animacion usando Animate-->   
+              <img class="imagen-logo animate__animated animate__backInLeft" src="../imagenes/logo-chaca.jpeg" alt="logo-del-club" >
             </a>
-        </div>
-        <nav class="barranav">
+
             <ul class="elementos-barra-nav">
                 <li class="nav-items"><a href="../index.html">Inicio</a></li>
                 <li class="nav-items"><a href="Noticias.html">Noticias</a></li>
@@ -43,9 +53,9 @@
                 <li class="nav-items"><a href="Natacion.html">Natacion</a></li>
                 <li class="nav-items"><a href="Socios.html">Socios </a></li>
             </ul>
-        </nav>
-    </header>
-
+         </div>
+        </div>
+      </nav>
     <!-- main-->
 
     <main>
@@ -66,7 +76,7 @@
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" src="../imagenes/futbol masculino.jpg"
                                 alt="vista de jugadores de futbol en cancha">
-                            <p>El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol,
+                            <p class="parrafo-article">El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol,
                                 balompie o soccer, es un deporte de equipo jugado entre dos conjuntos de 11 jugadores
                                 cada uno y un arbitro que se ocupa de que las normas se cumplan correctamente. Es
                                 ampliamente considerado el deporte mas popular del mundo, pues participan en él unos 270
@@ -87,7 +97,7 @@
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" src="../imagenes/futbol-femenino.jpg"
                                 alt="vista de jugadoras de futbol en cancha">
-                            <p>El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol,
+                            <p class="parrafo-article" >El fútbol asociación, o simplemente fútbol (del ingles football), también llamado fútbol,
                                 balompie o soccer, es un deporte de equipo jugado entre dos conjuntos de 11 jugadores
                                 cada uno y un arbitro que se ocupa de que las normas se cumplan correctamente. Es
                                 ampliamente considerado el deporte mas popular del mundo, pues participan en él unos 270
@@ -126,15 +136,7 @@
     <!--footer-->
     <footer>
         <section class="footer conteiner-fluid">
-            <ul class="lista-de-elementos">
-                <li><a class="enlaces" href="../index.html">INICIO</a></li>
-                <li><a class="enlaces" href="Noticias.html">NOTICIAS</a></li>
-                <li><a class="enlaces" href="Futbol.html">FUTBOL</a></li>
-                <li><a class="enlaces" href="Natacion.html">NATACION</a></li>
-                <li><a class="enlaces" href="Socios.html">CONTACTOS</a></li>
-            </ul>
-
-            <section id="Contactos" class="seccion-contacto">
+              <section id="Contactos" class="seccion-contacto">
                 <p class="enlaces">CONTACTOS</p>
                 <p class="text-footer">Redes Sociales</p>
                 <div class="iconos-redes-sociales">
