@@ -23,19 +23,19 @@
 }
 
 .redes__instagram {
-  background-color: #be1b6f;
+  background-color: none;
 }
 
 .redes__Twitter {
-  background-color: #008000;
+  background-color: none;
 }
 
 .redes__facebook {
-  background-color: #0000ff;
+  background-color: none;
 }
 
 .redes__envelope {
-  background-color: #00bbff;
+  background-color: none;
 }
 
 .section {
@@ -70,12 +70,22 @@
   font-family: "roboto";
 }
 
+.Noticias__titulo--Noticias {
+  margin: 20px;
+  font-size: 2rem;
+  color: #080808;
+  font-family: "roboto";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .Noticias__principal {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
 }
 
 .Noticias__imagen {
@@ -96,7 +106,13 @@
   margin: 20px 20px;
   font-family: "$tipografia-titulo, Cursive";
   color: #080808;
-  margin-top: 50px;
+}
+
+.Noticias__parrafo {
+  font-family: "roboto";
+  font-size: 1.3rem;
+  align-items: center;
+  font-weight: 500;
 }
 
 .Noticias__futbol {
@@ -123,12 +139,25 @@
 }
 
 .size-uno {
+  margin-bottom: 80px;
   margin-top: 40px;
   color: #080808;
 }
 
 .columna {
   margin-bottom: 50px;
+}
+
+.carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-p {
+  color: #ffffff;
 }
 
 .natacion {
@@ -201,20 +230,7 @@ i {
   max-height: 600px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-}
-
-.primer-imagen {
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.titulo-clase3 {
-  font-size: 1.2rem;
-  color: #584e4e;
-  margin: 15px;
+  border-radius: 20%;
 }
 
 .proyectos img {
@@ -408,12 +424,12 @@ body {
 }
 
 .footer {
-  margin: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: rgba(13, 110, 253, 0.25);
 }
 .footer__a {
   color: #1b1b32;
@@ -451,6 +467,8 @@ body {
   margin: 10px;
   padding-bottom: 10px;
   color: #080808;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 /*media query*/

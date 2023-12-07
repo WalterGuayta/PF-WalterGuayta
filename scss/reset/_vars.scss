@@ -55,10 +55,10 @@ $bshadow-3:$color-primary;
 
  $redes: (
     //clave        color
-    instagram:  #be1b6f,
-    Twitter:     #008000,
-    facebook:   #0000ff,
-    envelope:    #00bbff,
+    instagram:   none,
+    Twitter:     none,
+    facebook:    none,
+    envelope:    none,
     );
 
 @each $clave, $color in $redes {

@@ -6,26 +6,6 @@
 
 
 
-.logo {
-    width: 300px;
-   
-} 
-
-.clase-uno {
-    background-color:#6767f2;
-}
-
-
-.historia2 {
-    width: 500px;
- 
-}
-
-
-.futsal {
-    width: 500px;
-}
-
 .clase-natacion {
     text-align-last: center;
     background-color: aqua;
@@ -34,23 +14,6 @@
        
 }
 
-
-.beneficios {
-       color: blue;
-     
-}
-
-.cena {
-    width: 250px;
-    height: 300px;
-
-}
-
-.fiesta {
-    width: 250px;
-    height: 300px;
-
-}
 
 /*estilos generales*/
 
@@ -263,7 +226,6 @@ i{
 /*footer index*/
 
 .footer{
-    margin: 20px;
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;

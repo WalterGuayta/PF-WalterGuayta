@@ -31,16 +31,26 @@
     justify-content: center;
     font-size: 2.0rem;
     color:$Black;
-    font-family: $tipografia-titulo;
+    font-family: $tipografia-titulo; 
+ }
 
+ .Noticias__titulo--Noticias{    
+      margin: 20px;
+      font-size: 2.0rem;
+      color:$Black;
+      font-family: $tipografia-titulo; 
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;      
 }
+
 
 
 .Noticias__principal {
     @include flex-justi-direction;
     align-items: center;
-    padding:3rem;
-
+  
 }
 
 .Noticias__imagen {
@@ -62,10 +72,16 @@
     margin: 20px 20px;
     font-family: "$tipografia-titulo, Cursive";
     color: $Black;
-    margin-top: 50px;
+   
 }
 
-
+.Noticias__parrafo{
+    font-family: $tipografia-titulo;
+    font-size: 1.3rem;
+    align-items: center;
+    font-weight: 500;
+    
+}
 
 .Noticias__futbol{
     color:rgb(16, 16, 16);
@@ -95,10 +111,24 @@
 }
 
 .size-uno{
+    margin-bottom: 80px;
     margin-top: 40px;
     color: $Black;
 }
 
 .columna{
     margin-bottom: 50px;
+}
+
+.carousel{
+    max-width: 800px;
+}
+
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-p{
+    color: $Blanco;
 }

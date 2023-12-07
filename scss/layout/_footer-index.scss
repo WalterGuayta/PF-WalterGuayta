@@ -1,11 +1,10 @@
 .footer{
-    margin: 20px;
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    background-color: rgba(13, 110, 253, 0.25);
 
     &__a{
         color: #1b1b32;
@@ -50,4 +49,6 @@
     margin: 10px;
     padding-bottom: 10px;
     color: $Black;
+    font-family: $tipografia-titulo;
+    font-weight: 500;
 }
