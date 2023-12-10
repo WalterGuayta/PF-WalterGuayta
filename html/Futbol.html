@@ -33,35 +33,28 @@
 
 <body>
     <!-- barra de navegacion-->
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar-Toggler">
-            <a class="navbar-brand" href="../index.html">
-    
-    <!--Animacion usando Animate-->   
-              <img class="imagen-logo animate__animated animate__backInLeft" src="../imagenes/logo-chaca.jpeg" alt="logo-del-club" >
-            </a>
-
-            <ul class="elementos-barra-nav">
-                <li class="nav-items"><a href="../index.html">Inicio</a></li>
-                <li class="nav-items"><a href="Noticias.html">Noticias</a></li>
-                <li class="nav-items"><a href="Futbol.html">Futbol </a></li>
-                <li class="nav-items"><a href="Natacion.html">Natacion</a></li>
-                <li class="nav-items"><a href="Socios.html">Socios </a></li>
-            </ul>
-         </div>
-        </div>
-      </nav>
+    <header>
+        <img class="imagen-logo" src="../imagenes/logo-chaca.jpeg" alt="logo-del-club">
+          <input type="checkbox" id="check">
+          <label for="check" class="mostrar-menu">&#8801</label> 
+      
+          <nav class="menu">
+            <a href="../index.html">Inicio</a>
+            <a href="Noticias.html">Noticias</a>
+            <a href="Futbol.html">Futbol</a>
+            <a href="Natacion.html">Natacion</a>
+            <a href="Socios.html">Socios</a>
+            <label for="check" class="esconder-menu">
+            &#215
+            </label>
+          </nav>
+       </header>
     <!-- main-->
 
     <main>
         <div class="main-titulos">
-            <h1 class="main-futbol1">FUTBOL</h1>
-            <h2 class="main-futbol2">Todas las Novedades</h2>
+            <h1 class="Noticias-titulo">FUTBOL</h1>
+            <h2 class="Noticias-titulo">Todas las Novedades</h2>
         </div>
 
         <!--seccion-->
@@ -70,7 +63,7 @@
                 <div class="col-12 col-md-6">
                     <div class="proyectos">
                         <div class="overlay">
-                            <p class="titulo-clase3">
+                            <p class="Noticias__titulo-2">
                                 Futbol Masculino</p>
                             <img class="futbol-masculino" data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
@@ -91,7 +84,7 @@
                 <div class="col-12 col-md-6">
                     <div class="proyectos">
                         <div class="overlay">
-                            <p class="titulo-clase3">
+                            <p class="Noticias__titulo-2">
                                 Futbol Femenino</p>
                             <img class="futbol-femenino" data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
@@ -110,7 +103,7 @@
                 </div>
 
                 <article>
-                    <h3 class="titulo-clase3">Babi y Fefi</h3>
+                    <h3 class="Noticias__titulo-2">Babi y Fefi</h3>
                     <img class="fefi" src="../imagenes/fefi.jpg" alt="vista del banco de suplentes">
 
                     <p class="parrafo-article">FEFI cumple 30 años de trayectoria con el mayor torneo de fútbol infantil
@@ -122,7 +115,7 @@
                 </article>
 
                 <article>
-                    <h3 class="titulo-clase3">Futsal</h3>
+                    <h3 class="Noticias__titulo-2">Futsal</h3>
                     <img class="futsal" src="../imagenes/futsal.jpg" alt="jugando futsal">
 
                     <p class="parrafo-article">¿Qué es el fútbol sala y cómo se juega?

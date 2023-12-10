@@ -35,3 +35,80 @@
  .escribir{
     width: 50%;
  }
+
+ /*Header*/
+ header{
+   
+    padding:30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .menu a{
+    color:black;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+ }
+
+ .mostrar-menu,
+ .esconder-menu{
+    font-size:30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+ }
+
+ .mostrar-menu{
+    order: 1;
+ }
+
+ .menu a:hover,
+ .mostrar-menu:hover
+ .esconder-menu:hover{
+    color:rgba(255, 217, 0, 0.884)
+ }
+
+ #check{
+    display: none;
+ }
+
+ /*responsive*/
+ @media screen and (max-width:768px) {
+    /*header*/
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+    
+ .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #4d4d5c;
+    right: -100%;
+    top:0;
+    text-align: center;
+    padding: 100px 0;
+    z-index: 100;
+    transition: 0.8s;
+    text-transform: uppercase;
+    }
+
+    .menu a{
+        display: block;
+        padding: 20px;
+    }
+
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #check:checked ~ .menu{
+        right: 0;
+    }
+}
