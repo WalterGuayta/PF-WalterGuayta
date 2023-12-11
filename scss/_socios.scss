@@ -95,11 +95,13 @@
     z-index: 100;
     transition: 0.8s;
     text-transform: uppercase;
+    font-weight: 600;
     }
 
     .menu a{
         display: block;
         padding: 20px;
+        font-weight: 600;
     }
 
     .esconder-menu{
@@ -111,4 +113,96 @@
     #check:checked ~ .menu{
         right: 0;
     }
+}
+
+/*personas*/
+#personas{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 50px 50px;
+}
+
+#personas img{
+   background-image: url(../imagenes/football-grass.jpg);
+   max-width: 100%;
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+}
+
+#personas div{
+   padding: 30px 30px;
+}
+
+#personas div h3{
+   color: #080808;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+#personas div p{
+   color: #080808;
+   font-size: 18px;
+}
+
+.parrafo-asociarme{
+   color: #080808;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.asociarme p{
+   color: #080808;
+   font-size: 16px;
+}
+
+.form h3{
+   color: #080808;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+
+.comentarios{
+   display: inline-block;
+   text-decoration: none;
+   color: rgba(255, 217, 0, 0.884);
+   padding: 10px 30px;
+   border: 3px solid black;
+   border-radius: 30px;
+   margin-top: 15px;
+   transition: all 0.4s;
+}
+
+#personas a{
+   color: black;
+   transition: 0.4s;
+}
+
+#personas a:hover,
+.comentarios:hover{
+   color: rgba(255, 217, 0, 0.884);
+}
+
+.container p{
+   color: #080808;
+   font-size: 18px;
+}
+
+.container div h3{
+   color: #080808;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.socio-parrafo{
+   color: #080808;
+    font-size: 16px;
+}
+
+.socios-titulo{
+   color: #080808;
+   font-size: 20px;
+   font-weight: 600;
 }

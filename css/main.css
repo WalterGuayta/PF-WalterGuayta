@@ -65,14 +65,15 @@
 .Noticias__titulo {
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
   color: #080808;
   font-family: "roboto";
 }
 
 .Noticias__titulo--Noticias {
   margin: 20px;
-  font-size: 2rem;
+  font-size: 18px;
   color: #080808;
   font-family: "roboto";
   display: flex;
@@ -89,8 +90,7 @@
 }
 
 .Noticias__imagen {
-  width: 400px;
-  height: 400px;
+  max-width: 100%;
   border-radius: 50%;
   margin: 30px;
   transition: all 300ms;
@@ -101,11 +101,12 @@
   transform: scale(1.15);
 }
 
-.Noticias__titulo--2 {
+.Noticias__titulo-2 {
   font-size: 25px;
   margin: 20px 20px;
   font-family: "$tipografia-titulo, Cursive";
   color: #080808;
+  font-weight: 600;
 }
 
 .Noticias__parrafo {
@@ -171,7 +172,11 @@
 }
 
 .btn {
+  color: #080808;
   transition: 0.4s;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 10px 30px;
 }
 
 .btn:hover {
@@ -253,7 +258,7 @@ i {
 
 .proyectos img {
   width: 100%;
-  height: 100%;
+  height: 400px;
   padding: 10px;
   display: block;
   border-radius: 15px;
@@ -270,9 +275,9 @@ i {
 
 body {
   background-image: url(../imagenes/football-grass.jpg);
-  height: 45vh;
-  background-size: cover;
-  background-position: center;
+  height: 40vh;
+  background-size: 2000px;
+  background-position: left;
 }
 
 .Noticias__imagenes {
@@ -356,16 +361,16 @@ body {
   height: 100px;
 }
 
-.fefi {
-  width: 100%;
-}
-
-.futsal {
-  width: 100%;
+article img {
+  max-width: 100%;
+  width: 500px;
+  height: 400px;
 }
 
 .parrafo-article {
   margin-top: 30px;
+  color: black;
+  font-size: 18px;
 }
 
 .socios {
@@ -456,10 +461,12 @@ header {
     z-index: 100;
     transition: 0.8s;
     text-transform: uppercase;
+    font-weight: 600;
   }
   .menu a {
     display: block;
     padding: 20px;
+    font-weight: 600;
   }
   .esconder-menu {
     position: absolute;
@@ -470,6 +477,97 @@ header {
     right: 0;
   }
 }
+/*personas*/
+#personas {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+#personas img {
+  background-image: url(../imagenes/football-grass.jpg);
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+#personas div {
+  padding: 30px 30px;
+}
+
+#personas div h3 {
+  color: #080808;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#personas div p {
+  color: #080808;
+  font-size: 18px;
+}
+
+.parrafo-asociarme {
+  color: #080808;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.asociarme p {
+  color: #080808;
+  font-size: 16px;
+}
+
+.form h3 {
+  color: #080808;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.comentarios {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(255, 217, 0, 0.884);
+  padding: 10px 30px;
+  border: 3px solid black;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: all 0.4s;
+}
+
+#personas a {
+  color: black;
+  transition: 0.4s;
+}
+
+#personas a:hover,
+.comentarios:hover {
+  color: rgba(255, 217, 0, 0.884);
+}
+
+.container p {
+  color: #080808;
+  font-size: 18px;
+}
+
+.container div h3 {
+  color: #080808;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.socio-parrafo {
+  color: #080808;
+  font-size: 16px;
+}
+
+.socios-titulo {
+  color: #080808;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /*estilos generales*/
 .historia2 {
   width: 500px;
