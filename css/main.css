@@ -80,6 +80,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
 }
 
 .Noticias__principal {
@@ -101,18 +102,18 @@
   transform: scale(1.15);
 }
 
-.Noticias__titulo-2 {
-  font-size: 25px;
-  margin: 20px 20px;
-  font-family: "$tipografia-titulo, Cursive";
+.Noticias__titulo--2 {
+  font-size: 18px;
   color: #080808;
   font-weight: 600;
+  font-family: "roboto";
 }
 
 .Noticias__parrafo {
   font-family: "roboto";
-  font-size: 1.3rem;
+  font-size: 18px;
   align-items: center;
+  color: #080808;
 }
 
 .Noticias__futbol {
@@ -249,8 +250,10 @@ i {
 }
 
 .imagen-club {
-  min-width: 700px;
-  max-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 500px;
+  max-height: 500px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-radius: 20%;
@@ -317,7 +320,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
 }
 
 .nav-items {
@@ -334,7 +336,6 @@ body {
 }
 
 .main-titulos {
-  margin: 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -546,11 +547,6 @@ header {
   color: rgba(255, 217, 0, 0.884);
 }
 
-.container p {
-  color: #080808;
-  font-size: 18px;
-}
-
 .container div h3 {
   color: #080808;
   font-size: 18px;
@@ -612,6 +608,16 @@ header {
   justify-content: space-between;
 }
 
+.imagen-logo {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 250px;
+}
+
+body {
+  flex-wrap: wrap;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -636,10 +642,11 @@ header {
 }
 
 .enlaces {
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
   font-family: "$tipografia-titulo";
   color: #080808;
+  font-weight: 600;
 }
 
 .footer ul li {
@@ -661,26 +668,6 @@ header {
 }
 
 /*media query*/
-@media screen and (max-width: 540px) {
-  .imagen-logo {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 860px) {
-  .imagen-seccion-1 {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 912px) {
-  .lista-de-elementos {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 1140px) {
-  .imagen-club {
-    max-width: 100%;
-  }
-}
 @media screen and (max-width: 846px) {
   .imagen-logo {
     display: none;

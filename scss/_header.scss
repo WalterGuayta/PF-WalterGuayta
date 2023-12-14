@@ -43,7 +43,8 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: center;      
+      align-items: center;  
+      font-weight: 600;    
 }
 
 
@@ -68,19 +69,19 @@
     transform: scale(1.15);
 }
 
-.Noticias__titulo-2 {
-    font-size: 25px;
-    margin: 20px 20px;
-    font-family: "$tipografia-titulo, Cursive";
-    color: $Black;
-    font-weight: 600;
-   
+.Noticias__titulo--2 {
+   font-size: 18px;
+   color: #080808;
+   font-weight: 600;
+   font-family: "roboto";
 }
 
 .Noticias__parrafo{
     font-family: $tipografia-titulo;
-    font-size: 1.3rem;
+    font-size: 18px;
     align-items: center;
+    color: #080808;
+   
        
 }
 

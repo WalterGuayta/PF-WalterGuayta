@@ -5,10 +5,13 @@
 }
 
 .imagen-club{
-    min-width: 700px;
-    max-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 500px;
+    max-height: 500px;
     margin-bottom: 20px;
     padding-bottom: 20px ;
     border-radius: 20%;
-
 }
+
+
