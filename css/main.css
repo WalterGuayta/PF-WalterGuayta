@@ -183,6 +183,13 @@
   color: rgba(255, 217, 0, 0.884);
 }
 
+.Noticias__club {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 /*evitar scroll horizontal*/
 /*media query*/
 @media screen and (max-width: 846px) {
@@ -207,11 +214,6 @@
   body {
     background-image: url(../imagenes/fondo.jpg);
   }
-  #Noticias,
-  .Noticias__principal,
-  .row {
-    max-width: 100%;
-  }
   .Noticias__img,
   .imagen-club {
     max-width: 100%;
@@ -223,7 +225,6 @@
     background-image: url(../imagenes/fondo-de-pantalla.jpg);
   }
   #Noticias,
-  .Noticias__principal,
   .row .Noticias__imagen,
   #Futbol,
   .Proyectos-contenedor {
