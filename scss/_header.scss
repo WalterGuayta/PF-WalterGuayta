@@ -158,6 +158,13 @@
 }
 
 
+.Noticias__club{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /*evitar scroll horizontal*/
 
 
@@ -190,11 +197,7 @@
     body{
       background-image: url(../imagenes/fondo.jpg) ;
    }
-   #Noticias,
-   .Noticias__principal,
-   .row {
-    max-width: 100%;
-   }
+   
 
    .Noticias__img,
   .imagen-club{
@@ -210,8 +213,7 @@
       background-image: url(../imagenes/fondo-de-pantalla.jpg) ;
    }
 
-   #Noticias,
-   .Noticias__principal,
+   #Noticias,  
    .row
    .Noticias__imagen,
    #Futbol,
